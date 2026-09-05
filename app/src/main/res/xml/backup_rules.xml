@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude hardware-bound Keystore encrypted preferences to prevent decryption crashes on new devices -->
+    <exclude domain="sharedpref" path="second_brain_secure_vault_prefs.xml" />
+    <!-- Exclude encrypted vault media from device auto backup -->
+    <exclude domain="file" path="vault_media" />
+</full-backup-content>

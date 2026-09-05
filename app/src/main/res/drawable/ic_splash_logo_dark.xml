@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@mipmap/ic_launcher_round"
+    android:insetTop="24%"
+    android:insetBottom="24%"
+    android:insetLeft="24%"
+    android:insetRight="24%" />

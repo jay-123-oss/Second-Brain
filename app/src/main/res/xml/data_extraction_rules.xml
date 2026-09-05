@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude hardware-bound Keystore encrypted preferences -->
+        <exclude domain="sharedpref" path="second_brain_secure_vault_prefs.xml" />
+        <!-- Exclude private vault media directory -->
+        <exclude domain="file" path="vault_media" />
+    </cloud-backup>
+    <device-transfer>
+        <!-- Exclude hardware-bound Keystore encrypted preferences on direct device-to-device transfers -->
+        <exclude domain="sharedpref" path="second_brain_secure_vault_prefs.xml" />
+        <exclude domain="file" path="vault_media" />
+    </device-transfer>
+</data-extraction-rules>
